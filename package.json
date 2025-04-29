@@ -1,0 +1,33 @@
+{
+  "name": "scout-alo",
+  "version": "1.0.0",
+  "author": "A.Aloisio",
+  "description": "App Raccolta Dati e Grafici",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "com.aloisioa.scoutalo",
+    "productName": "appScoutAlo",
+    "files": [
+      "**/*"
+    ],
+    "linux": {
+      "target": "AppImage",
+      "icon": "build/iconScoutAlo.png"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/iconScoutAlo.png"
+    }
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.11.0"
+  }
+}

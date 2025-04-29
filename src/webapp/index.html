@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Raccolta Dati + Grafico</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <h1>📊 Raccolta Dati + Grafico</h1>
+
+  <input type="text" id="name" placeholder="Nome">
+  <input type="number" id="value" placeholder="Valore">
+  <button id="addButton">Aggiungi</button>
+  <button id="exportButton">Esporta CSV</button>
+
+  <table id="data-table">
+    <thead>
+      <tr><th>Nome</th><th>Valore</th></tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <canvas id="myChart" width="600" height="300"></canvas>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
