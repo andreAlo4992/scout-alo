@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "A.Aloisio",
   "description": "App Raccolta Dati e Grafici",
-  "main": "main.js",
+  "main": "src/js/main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"

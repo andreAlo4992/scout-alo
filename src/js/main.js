@@ -11,7 +11,7 @@ function createWindow() {
     }
   });
 
-  win.loadFile('login.html');
+  win.loadFile('src/webapp/login.html');
 }
 
 app.whenReady().then(createWindow);
