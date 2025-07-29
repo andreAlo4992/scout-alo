@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=ScoutAlo
-Comment=App Raccolta Dati e Grafici
-Exec=/home/andrea/condivisione/appScoutAlo/dist/appScoutAlo.AppImage
-Icon=/home/andrea/condivisione/appScoutAlo/immagini/iconScoutAlo.png
-Terminal=false
-Type=Application
-Categories=Utility;
-
